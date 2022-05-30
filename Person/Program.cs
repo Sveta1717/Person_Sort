@@ -183,7 +183,7 @@ namespace Person
             Console.WriteLine("\n");
 
             Console.WriteLine("\nВiдсортований за iменами (Я-А) список:\n");
-            Sorter.BubbleSort(persons, PersonFirstnameUpComparer); // сортируем по именам
+            Sorter.BubbleSort(persons, PersonFirstnameUpComparer); 
             foreach (object person in persons) Console.WriteLine(person);
 
             Console.WriteLine("\n");
